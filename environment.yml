@@ -14,6 +14,8 @@ dependencies:
   - babel=2.13.1=pyhd8ed1ab_0
   - beautifulsoup4=4.12.2=pyha770c72_0
   - bleach=6.1.0=pyhd8ed1ab_0
+  - brotli=1.1.0=hb547adb_1
+  - brotli-bin=1.1.0=hb547adb_1
   - brotli-python=1.1.0=py312h9f69965_1
   - bzip2=1.0.8=h93a5062_5
   - ca-certificates=2023.11.17=hf0a4a13_0
@@ -23,13 +25,17 @@ dependencies:
   - cffi=1.16.0=py312h8e38eb3_0
   - charset-normalizer=3.3.2=pyhd8ed1ab_0
   - comm=0.1.4=pyhd8ed1ab_0
+  - contourpy=1.2.0=py312h76e736e_0
+  - cycler=0.12.1=pyhd8ed1ab_0
   - debugpy=1.8.0=py312h9f69965_1
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - entrypoints=0.4=pyhd8ed1ab_0
   - exceptiongroup=1.2.0=pyhd8ed1ab_0
   - executing=2.0.1=pyhd8ed1ab_0
+  - fonttools=4.45.1=py312he37b823_0
   - fqdn=1.5.1=pyhd8ed1ab_0
+  - freetype=2.12.1=hadb7bae_2
   - haversine=2.8.0=pyhd8ed1ab_0
   - idna=3.4=pyhd8ed1ab_0
   - importlib-metadata=6.8.0=pyha770c72_0
@@ -54,22 +60,37 @@ dependencies:
   - jupyterlab=4.0.9=pyhd8ed1ab_0
   - jupyterlab_pygments=0.3.0=pyhd8ed1ab_0
   - jupyterlab_server=2.25.2=pyhd8ed1ab_0
+  - kiwisolver=1.4.5=py312h389731b_1
+  - lcms2=2.15=hf2736f0_3
+  - lerc=4.0.0=h9a09cb3_0
   - libblas=3.9.0=20_osxarm64_openblas
+  - libbrotlicommon=1.1.0=hb547adb_1
+  - libbrotlidec=1.1.0=hb547adb_1
+  - libbrotlienc=1.1.0=hb547adb_1
   - libcblas=3.9.0=20_osxarm64_openblas
   - libcxx=16.0.6=h4653b0c_0
+  - libdeflate=1.19=hb547adb_0
   - libexpat=2.5.0=hb7217d7_1
   - libffi=3.4.2=h3422bc3_5
   - libgfortran=5.0.0=13_2_0_hd922786_1
   - libgfortran5=13.2.0=hf226fd6_1
+  - libjpeg-turbo=3.0.0=hb547adb_1
   - liblapack=3.9.0=20_osxarm64_openblas
   - libopenblas=0.3.25=openmp_h6c19121_0
+  - libpng=1.6.39=h76d750c_0
   - libsodium=1.0.18=h27ca646_1
   - libsqlite=3.44.1=h091b4b1_0
+  - libtiff=4.6.0=ha8a6c65_2
+  - libwebp-base=1.3.2=hb547adb_0
+  - libxcb=1.15=hf346824_0
   - libzlib=1.2.13=h53f4e23_5
   - llvm-openmp=17.0.5=hcd81f8e_0
   - markupsafe=2.1.3=py312h02f2b3b_1
+  - matplotlib=3.8.2=py312h1f38498_0
+  - matplotlib-base=3.8.2=py312hba9b818_0
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
   - mistune=3.0.2=pyhd8ed1ab_0
+  - munkres=1.1.4=pyh9f0ad1d_0
   - nbclient=0.8.0=pyhd8ed1ab_0
   - nbconvert-core=7.11.0=pyhd8ed1ab_0
   - nbformat=5.9.2=pyhd8ed1ab_0
@@ -78,6 +99,7 @@ dependencies:
   - notebook=7.0.6=pyhd8ed1ab_0
   - notebook-shim=0.2.3=pyhd8ed1ab_0
   - numpy=1.26.0=py312h696b312_0
+  - openjpeg=2.5.0=h4c1507b_3
   - openssl=3.1.4=h0d3ecfb_0
   - overrides=7.4.0=pyhd8ed1ab_0
   - packaging=23.2=pyhd8ed1ab_0
@@ -86,6 +108,7 @@ dependencies:
   - parso=0.8.3=pyhd8ed1ab_0
   - pexpect=4.8.0=pyh1a96a4e_2
   - pickleshare=0.7.5=py_1003
+  - pillow=10.1.0=py312hac22aec_0
   - pip=23.3.1=pyhd8ed1ab_0
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_1
   - platformdirs=4.0.0=pyhd8ed1ab_0
@@ -93,12 +116,14 @@ dependencies:
   - prompt-toolkit=3.0.41=pyha770c72_0
   - prompt_toolkit=3.0.41=hd8ed1ab_0
   - psutil=5.9.5=py312h02f2b3b_1
+  - pthread-stubs=0.4=h27ca646_1001
   - ptyprocess=0.7.0=pyhd3deb0d_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
   - pygments=2.17.2=pyhd8ed1ab_0
   - pyobjc-core=10.0=py312h6168cce_0
   - pyobjc-framework-cocoa=10.0=py312h6168cce_1
+  - pyparsing=3.1.1=pyhd8ed1ab_0
   - pysocks=1.7.1=pyha2e5f31_6
   - python=3.12.0=h47c9636_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
@@ -139,8 +164,11 @@ dependencies:
   - webencodings=0.5.1=pyhd8ed1ab_2
   - websocket-client=1.6.4=pyhd8ed1ab_0
   - wheel=0.41.3=pyhd8ed1ab_0
+  - xorg-libxau=1.0.11=hb547adb_0
+  - xorg-libxdmcp=1.1.3=h27ca646_0
   - xz=5.2.6=h57fd34a_0
   - yaml=0.2.5=h3422bc3_2
   - zeromq=4.3.5=h965bd2d_0
   - zipp=3.17.0=pyhd8ed1ab_0
+  - zstd=1.5.5=h4f39d0f_0
 prefix: /Users/nicholasbennett/anaconda3/envs/weatherfeel
